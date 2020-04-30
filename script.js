@@ -11,3 +11,12 @@ $('#third').click(() => {
     $('#second').css('background-color', 'blue'),
     $('#third').css('background-color', 'yellow');
 });
+
+$('#third').click (() => {
+    let Color = document.getElementById("colorInput").value;
+    // if () {
+    //     $('#first').css('background-color', Color);
+    //     $('#second').css('background-color', Color);
+    //     $('#third').css('background-color', Color);
+    // };
+});
